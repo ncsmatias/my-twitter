@@ -5,7 +5,9 @@ import { Header } from "./header/header";
 import { Content } from "./content/content";
 import { TweetText } from "./tweet-text/tweet-text";
 import { PictureProfile } from "./picture-profile/picture-profile";
+import { IconButton } from "./button/icon-button";
 
+import TweetCard from "./tweet-card/tweet-card";
 import MainLayout from "./main-layout";
 
 export {
@@ -16,5 +18,7 @@ export {
   Content,
   TweetText,
   PictureProfile,
-  MainLayout
+  IconButton,
+  MainLayout,
+  TweetCard
 }

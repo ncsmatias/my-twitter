@@ -17,6 +17,8 @@ const SideNav = styled.section`
 const Content = styled.section`
   width: 100%;
   height: 100vh;
+
+  overflow-y: scroll;
 `
 const Header = styled.header`
   width: 100%;
@@ -46,7 +48,6 @@ const Link = styled.a<{ selected?: boolean }>`
   align-items: center;
   gap: 20px;
 `
-
 
 export {
   Container,
