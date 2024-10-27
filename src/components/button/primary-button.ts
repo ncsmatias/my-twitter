@@ -5,6 +5,7 @@ export const PrimaryButton = styled.button`
   border-radius: 8px;
   background-color: #1DA1F2;
   border: none;
+  width: auto;
 
   color: #FFFFFF;
   font-weight: 600;

@@ -1,7 +1,8 @@
 import React from "react";
-import { Header, MainLayout, Title } from "../../components";
+import { Content, Header, MainLayout, PictureProfile, PrimaryButton, Title, TweetText } from "../../components";
 
 import sparkleIcon from '../../assets/sparkle.svg';
+import { Tweet, TweetArea } from "./styles";
 
 function FeedPage() {
   return <MainLayout>
@@ -9,7 +10,15 @@ function FeedPage() {
       <Title>Feed</Title>
       <img src={sparkleIcon} />
     </Header>
-    <h1>Feed Page</h1>
+    <Content>
+      <Tweet>
+        <TweetArea>
+          <PictureProfile src="https://images.pexels.com/photos/3212954/pexels-photo-3212954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <TweetText placeholder="O que está acontecendo?" />
+        </TweetArea>
+        <PrimaryButton style={{ borderRadius: '32px' }}>Tweet</PrimaryButton>
+      </Tweet>
+    </Content>
   </MainLayout>;
 }
 
