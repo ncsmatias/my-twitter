@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react'
 import { Container, Content, Header, Link, Nav, SideNav } from './styles';
 
-import twitterIcon48 from '../../assets/twitter48.svg'
 import { PrimaryButton } from '../button/primary-button';
 
+import twitterIcon48 from '../../assets/twitter48.svg'
 import homeIcon from '../../assets/menu/home.svg';
 import exploreIcon from '../../assets/menu/explore.svg';
 import notificationIcon from '../../assets/menu/notifications.svg';
