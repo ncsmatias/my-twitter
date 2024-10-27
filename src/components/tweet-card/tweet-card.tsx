@@ -4,6 +4,7 @@ import { PictureProfile } from "../picture-profile/picture-profile";
 import { IconButton } from "../button/icon-button";
 
 import chatCircleIcon from "../../assets/chat-circle.svg";
+import { useNavigate } from "react-router-dom";
 
 interface TweetCardProps {
   id: string;
@@ -22,6 +23,12 @@ function TweetCard({
   name,
   nickName
 }: TweetCardProps) {
+  const navigate = useNavigate();
+
+  const handleGoToCommentPage = () => {
+    navigate(`comments/${id}`)
+  }
+
   return <TweetContainer>
     <PictureProfile
       src={picture}
@@ -35,7 +42,7 @@ function TweetCard({
         {text}
       </Text>
       <Footer>
-        <IconButton>
+        <IconButton onClick={handleGoToCommentPage}>
           <img src={chatCircleIcon} />
           {comments}
         </IconButton>

@@ -8,6 +8,7 @@ import { PictureProfile } from "./picture-profile/picture-profile";
 import { IconButton } from "./button/icon-button";
 
 import TweetCard from "./tweet-card/tweet-card";
+import AnswerTweetCard from "./answer-tweet-card/answer-tweet-card";
 import MainLayout from "./main-layout";
 
 export {
@@ -20,5 +21,6 @@ export {
   PictureProfile,
   IconButton,
   MainLayout,
-  TweetCard
+  TweetCard,
+  AnswerTweetCard
 }

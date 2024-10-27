@@ -13,7 +13,7 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<FeedPage />} />
-        <Route path="/comments" element={<CommentsPage />} />
+        <Route path="/comments/:tweetSlug" element={<CommentsPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
