@@ -1,3 +1,6 @@
+# Figma
+https://www.figma.com/design/Gn2dt3HGFF90rOl2zCbPQa/Twitter-UI-(Community)?node-id=1-938&t=REqDnHWVGV7JNYNy-1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
